@@ -45,5 +45,5 @@ print("This program will play 'Rock, Paper, Scissors' with you.")
 print("Enter rock, paper, or scissors:", terminator: " ")
 let userGameChoice: String = readLine() ?? ""
 
-// Call rockPaperScissors().
+// Call rockPaperScissors.
 rockPaperScissors(gameChoice: userGameChoice)
