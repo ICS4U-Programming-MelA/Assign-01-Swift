@@ -40,8 +40,10 @@ func rockPaperScissors(gameChoice: String) {
 
 // Introduce the program.
 print("This program will play 'Rock, Paper, Scissors' with you.")
+
+// Get the user's choice.
 print("Enter rock, paper, or scissors:", terminator: " ")
 let userGameChoice: String = readLine() ?? ""
 
-// Call rockPaperScissors.
+// Call rockPaperScissors().
 rockPaperScissors(gameChoice: userGameChoice)
