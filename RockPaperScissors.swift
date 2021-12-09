@@ -9,7 +9,7 @@ func rockPaperScissors(gameChoice: String) {
   // Create a new array, and add rock, paper, and scissors to it.
   let rpsGameChoice: [String] = ["rock", "paper", "scissors"]
 
-  // Get the program's choice from the list.
+  // Get the program's choice from the array.
   let programGameChoice: String = rpsGameChoice.randomElement() ?? ""
 
   // Display to the user what the program chose.
